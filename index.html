@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <title>HTML Lists, Images, Tables & Forms</title>
+    </head>
+    <body>
+        <h1>HTML Lists</h1>
+        <h3>Ordered Lists</h3>
+        <ol type="i" start="3">
+            <li>Sylvia Karanja</li>
+            <li>Naomi Karanja</li>
+            <li>John Karanja</li>
+            <li>Susan Nyaga</li>
+        </ol>
+        <h3>Unordered Lists</h3>
+        <ul>
+            <li>Software engineering</li>
+            <li>Python</li>
+            <li>Database</li>
+            <li>Web dev</li>
+            <li>Start-up building</li>
+        </ul>
+        <h3>Definition Lists</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Hyper Text Markup Language</dd>
+            <dt>SQL</dt>
+            <dd>Structured Query Language</dd>
+        </dl>
+        <h1>HTML Images</h1>
+        <img src="pexels-julian-dahl-2149417377-31044656.jpg" alt="A huge plane" width="150" height="150">
+        <h1>HTML Tables</h1>
+        <table border="1">
+            <caption>Performance evaluation</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Marks</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sylvia</td>
+                    <td>90</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>89</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td>Naomi</td>
+                    <td>87</td>
+                    <td>51</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Name</th>
+                    <th>Marks</th>
+                    <th>Age</th>
+                </tr>
+            </tfoot>
+        </table>
+        <h1>HTML Forms</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="student_name" name="student_name" required>
+            <br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" name="gender" value="female">Female
+            <input type="radio" id="gender" name="gender" value="male">Male
+            <br><br>
+            <label for="hobbies">Hobbies:</label>
+            <input type="checkbox" id="hobbies" name="hobbies" value="sports">Sports
+            <input type="checkbox" id="hobbies" name="hobbies" value="drawing">Drawing
+            <input type="checkbox" id="hobbies" name="hobbies" value="adventure">Adventure
+            <br><br>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option>--Select country--</option>
+                <option value="Kenya">Kenya</option>
+                <option value="South Africa">South Africa</option>
+                <option value="South Sudan">South Sudan</option>
+            </select>
+            <br><br>
+            <label for="description">Describe yourself</label>
+            <textarea id="description" name="description">
+
+            </textarea>
+        </form>
+        <audio controls autoplay muted loop>
+            <source src="sza_30_for_30_lyrics_ft._kendrick_lamar_mp3_35899.mp3">
+        </audio>
+        <video controls autoplay muted loop>
+            <source src="sza_sza offcial video1.mp4">
+        </video>
+    </body>
+</html>
